@@ -1,0 +1,16 @@
+"use strict";
+//Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+let guest_List = ["Ammad", "Naeem", "Salam", "Qader"];
+let na_list = "Salam"; // Guest who can't make it
+const newGuest = "Shafiq"; // New guest to invite
+const i_Of_na_Guest = guest_List.indexOf(na_list);
+if (i_Of_na_Guest !== -1) { // If the guest is found in the list
+    guest_List.splice(i_Of_na_Guest, 1); // Remove the unavailable guest
+    guest_List.push(newGuest); // Add the new guest
+    console.log(`The guest list has been updated. ${na_list} can't make it. ${newGuest} has been invited instead.`);
+}
+else {
+    console.log(`${na_list} is not in the guest list.`);
+}
+console.log("Updated guest list:");
+console.log(guest_List);
