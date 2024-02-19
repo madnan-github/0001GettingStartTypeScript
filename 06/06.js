@@ -4,4 +4,3 @@ let per_name = "\t \t \n Muhammad Adnan Attari \t \n\n";
 console.log(`Name with whitespace:  ${per_name}`);
 let strippedName = per_name.trim();
 console.log(`Stripped name: ${strippedName}`);
-//console.log(`Stripped name: ${strippedName}`)
