@@ -3,13 +3,13 @@
 // Declare and assign two array
 
 let a : number[] = [10,20,4,40,60,70]
-var b : number[] = [1,2,3,4,5,6,7,8,9,10]
+let b : number[] = [1,2,3,4,5,6,7,8,9,10]
 
 // checking unique number with for loop
 
-for (var i = 0; i < a.length; i++) {
-    var isUnique = true;
-    for(var j = 0; j < b.length; j++) {
+for (let i = 0; i < a.length; i++) {
+    let isUnique = true;
+    for(let j = 0; j < b.length; j++) {
         if(a[i] === b[j]) {
             isUnique = false;
             break;
