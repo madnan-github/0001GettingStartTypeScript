@@ -1,9 +1,16 @@
 //Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
 
-let transport_Name: string[] = ["Car", "Motorcycle","Bus", "Bycycle"];
-let brand_Name : string[] = ["Honda", "Unique", "Dadsun", "Sohrab"]; 
 
-for (let i = 0; i < transport_Name.length; i++) {
-    
-    console.log(`I would like to own a ${brand_Name[i]} ${transport_Name[i]}.`);
-}
+//*list of transportation in array
+let fav_transport: Array<[transport:string,brand:string]>=[];
+
+//push transportation in array
+fav_transport.push(["car","Toyota"]);
+fav_transport.push(["motercycle","Honda"]);
+fav_transport.push(["bicyle","Sohraab"]);
+
+//print using for each loop
+fav_transport.forEach(([transport,brand])=>
+{
+    console.log(`I would like to own a ${brand} ${transport}`)
+})

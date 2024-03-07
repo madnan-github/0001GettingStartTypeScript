@@ -1,6 +1,7 @@
 //Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
 
 let guest_List: string[] = ["Ammad", "Naeem","Salam", "Qader"];
+console.log("Old Guest List:" + guest_List);
 
 let na_list: string = "Salam"; // Guest who can't make it
 const newGuest: string = "Shafiq"; // New guest to invite

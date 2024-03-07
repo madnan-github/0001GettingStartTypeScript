@@ -2,6 +2,6 @@
 
 let famous_person : string = "Muhammad Ali Jinnah";
 
-let message : string = 'Said, "Think 100 times before you take a decision, But once that decision is taken, stand by it as one man. ..."'
+let message : string = 'said, "Think 100 times before you take a decision, But once that decision is taken, stand by it as one man. ..."'
 
 console.log(famous_person + " " + message);

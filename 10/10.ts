@@ -5,7 +5,7 @@
 let a : number[] = [10,20,4,40,60,70]
 let b : number[] = [1,2,3,4,5,6,7,8,9,10]
 
-// checking unique number with for loop
+// checking unique number with for loop and include in array "b"
 
 for (let i = 0; i < a.length; i++) {
     let isUnique = true;
