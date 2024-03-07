@@ -11,7 +11,7 @@ if (i_Of_na_Guest !== -1) { // If the guest is found in the list
     console.log(`The guest list has been updated. ${na_list} can't make it. ${newGuest} has been invited instead.`);
 }
 else {
-    console.log(`${na_list} is not in the guest list.`);
+    console.log(`${na_list}  is not in the guest list.`);
 }
 console.log("Updated guest list:");
 console.log(guest_List);
