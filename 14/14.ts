@@ -3,5 +3,5 @@
 let guest_Name: string[] = ["Ammad", "Naeem","Salam", "Qader"];
 
 guest_Name.forEach((guest_Name) => {
-    console.log(`Mr.${guest_Name}, you are invited to dinner please join us.`);
+console.log(`Mr. ${guest_Name}, you are invited to dinner please join us.`);
 })
