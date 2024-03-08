@@ -2,15 +2,15 @@
 
 
 //*list of transportation in array
-let fav_transport: Array<[transport:string,brand:string]>=[];
+let transport: string [] = [];
 
 //push transportation in array
-fav_transport.push(["car","Toyota"]);
-fav_transport.push(["motercycle","Honda"]);
-fav_transport.push(["bicyle","Sohraab"]);
+transport.push("Toyota Car");
+transport.push("Honda Motercycle");
+transport.push("Sohraab Bicycle");
 
 //print using for each loop
-fav_transport.forEach(([transport,brand])=>
+transport.forEach((item) =>
 {
-    console.log(`I would like to own a ${brand} ${transport}`)
+    console.log(`I would like to own a ${item}`)
 })
