@@ -1,5 +1,6 @@
 "use strict";
 //Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
+Object.defineProperty(exports, "__esModule", { value: true });
 let p_Name = "mUHammAD adNAN qAdri";
 // UPPER CASE
 let u_Case = p_Name.toUpperCase();

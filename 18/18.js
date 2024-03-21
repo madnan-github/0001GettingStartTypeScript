@@ -10,6 +10,7 @@
 // 7 Reverse the order of your list again. Print the list to show it’s back to its original order.
 // 8 Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
 // 9 Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
+Object.defineProperty(exports, "__esModule", { value: true });
 let myFavPlaces = ["Madina Shrafi", "Jannat-ul-Baqi", "Gare-Hira", "Bagdad Sharif", "Saudi-Arab"];
 console.log(`1. Original Arrage: ${myFavPlaces}`);
 console.log(`2. Alphabetic Order: ${[...myFavPlaces].sort()}`);

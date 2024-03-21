@@ -2,6 +2,6 @@
 
 //1. install node.js
 
-//2. typescript
+//2. install typescript
 
-//3. vs code
+//3. install vs code
