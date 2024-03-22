@@ -4,4 +4,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function make_shirt(size, message) {
     return console.log(`This Shirt is available for "${size} size" with Tag of "${message}"`);
 }
-make_shirt(15, "Biggest Hero");
+make_shirt("Medium", "Biggest Hero");
