@@ -5,6 +5,6 @@ Call your function with at least three city-country pairs, and print the value t
 function city_Country(city: string, country: string): string {
     return `${city}, ${country}`;
 }
-console.log(city_Country("Lahore", "Pakistan"));
+console.log(city_Country("Karachi", "Pakistan"));
 console.log(city_Country("Islamabad", "Pakistan"));
 console.log(city_Country("Hyderabad", "Pakistan")); 
